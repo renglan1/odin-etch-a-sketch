@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  height: 960px;
+  margin: 0 auto;
+}
+
+.grid-row {
+  display: flex;
+  width: 100%;
+}
+
+.grid-item {
+  border: 1px solid black;
+  height: 100%;
+}
